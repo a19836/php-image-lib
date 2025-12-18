@@ -27,7 +27,7 @@ To see a working example, open [index.php](index.php) on your server.
 ## Usage
 
 ```php
-include __DIR__ . "ImageHandler.php";
+include __DIR__ . "/lib/ImageHandler.php";
 
 $ImageHandler = new ImageHandler();
 
@@ -43,7 +43,7 @@ $extension = $ImageHandler->getFileExtension($file_path); //get the image file e
 ## Other interesting Methods
 
 ```php
-include __DIR__ . "MimeTypeHandler.php";
+include __DIR__ . "/lib/MimeTypeHandler.php";
 
 MimeTypeHandler::isVideoMimeType($mime_type); //checks if mime type is video
 MimeTypeHandler::isImageMimeType($mime_type); //checks if mime type is image

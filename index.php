@@ -51,7 +51,7 @@ p {margin:0 0 20px; text-align:center;}
 	<h5>Usage</h5>
 	<div class="code short">
 		<textarea readonly>
-include __DIR__ . "ImageHandler.php";
+include __DIR__ . "/lib/ImageHandler.php";
 
 $ImageHandler = new ImageHandler();
 
@@ -68,7 +68,7 @@ $extension = $ImageHandler->getFileExtension($file_path); //get the image file e
 	<h5>Other interesting Methods</h5>
 	<div class="code">
 		<textarea readonly>
-include __DIR__ . "MimeTypeHandler.php";
+include __DIR__ . "/lib/MimeTypeHandler.php";
 
 MimeTypeHandler::isVideoMimeType($mime_type); //checks if mime type is video
 MimeTypeHandler::isImageMimeType($mime_type); //checks if mime type is image
